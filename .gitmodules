@@ -1,0 +1,4 @@
+[submodule "_spec"]
+	path = _spec
+	url = https://github.com/pragver/pragver.git
+	branch = master
