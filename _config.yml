@@ -1,0 +1,106 @@
+#
+# Site settings
+#
+remote_theme: LeakyAbstractions/pretty-docs
+url: https://pragver.github.io
+baseurl: /
+title: &site_title Pragmatic Versioning
+description: &site_description Pragmatic Versioning specification and website
+latest: "0.1.0.0-alpha"
+branding:
+  icon:
+    name: icon_tags_alt
+  highlight: Prag
+  bold: Ver
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+  parse_block_html: true
+
+
+#
+# Owner
+#
+owner:
+  name: Guillermo Calvo
+  twitter: gcalvo
+  copyright:
+    notice: >
+      [Pragmatic Versioning Specification](https://github.com/pragver/pragver)
+      released under
+      [Creative Commons](http://creativecommons.org/licenses/by/4.0/ 'Attribution 4.0 International')
+    author: "[Guillermo Calvo](https://guillermo.in/)"
+
+
+#
+# Social
+#
+open_graph:
+  title: *site_title
+  site_name: *site_title
+  description: *site_description
+  locale: en_US
+  image: /assets/images/thumb.png
+twitter_cards:
+  title: *site_title
+  description: *site_description
+  creator: pragver
+  card: summary_large_image
+  image: /assets/images/thumb.png
+share:
+  twitter:
+    via: pragver
+    text: &site_description
+    title: Tweet
+  github:
+    repo: pragver/pragver
+    position: right
+    color: red
+
+
+# Google Analytics
+google_analytics: 'UA-15798642-5'
+
+
+#
+# Collections
+#
+collections:
+  doc:
+    output: true
+    permalink: /:path/
+  spec:
+    output: true
+
+
+#
+# Default values
+#
+defaults:
+  -
+    scope:
+      path: ""
+      type: doc
+    values:
+      layout: doc
+  -
+    scope:
+      path: ""
+      type: spec
+    values:
+      layout: spec
+      color: blue
+      icon:
+        name: icon_documents
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: doc
