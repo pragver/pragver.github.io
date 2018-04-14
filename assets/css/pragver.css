@@ -1,0 +1,83 @@
+
+.spec h2 {
+    font-size: 26px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+#specification img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#specification blockquote > h6 {
+    display: inline;
+    cursor: help;
+    background: #888;
+    color: #fff;
+    border-radius: .25em;
+    font-style: normal;
+    font-weight: normal;
+    padding: .2em 1em;
+    font-size: 80%;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+#specification blockquote > h6:before {
+    content: 'Hide ';
+}
+
+#specification blockquote > h6.collapsed:before {
+    content: 'Show ';
+}
+
+#specification blockquote > h6 + ul {
+    padding-top: .5em;
+    padding-left: 2em;
+    font-size: 14px;
+}
+
+#specification blockquote > h6 + ul > li {
+    list-style: none;
+}
+
+#specification blockquote > h6 + ul > li > ins:before,
+#specification blockquote > h6 + ul > li > del:before {
+    display: inline-block;
+    width: 1.5em;
+}
+
+#specification blockquote > h6 + ul > li > ins:before {
+    content: "✔";
+    color: green;
+}
+
+#specification blockquote > h6 + ul > li > del:before {
+    content: "✘";
+    color: red;
+}
+
+#specification blockquote > h6 + ul > li > del {
+    text-decoration: line-through;
+}
+
+#specification blockquote > h6 + ul > li > ins {
+    text-decoration: none;
+}
+
+#specification blockquote > h6 + ul > li > ins > code,
+#specification blockquote > h6 + ul > li > del > code {
+    background: #ddd;
+    color: #666;
+    font-size: inherit;
+    font-weight: bolder;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    padding: 0 .5em 0 .5em;
+    padding-top: 0;
+    text-decoration: none;
+}
