@@ -1,0 +1,18 @@
+# Autodetect text files
+* text=auto
+
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.css text
+*.gitattributes text
+*.gitignore text
+*.html text
+*.md text
+*.svg text
+*.yml text
+
+# Force images/fonts to be handled as binaries
+*.gif binary
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.png binary
