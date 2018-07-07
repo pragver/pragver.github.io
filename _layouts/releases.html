@@ -90,7 +90,7 @@ layout: compress
 
                             {{ content }}
 
-                          {% assign releases = site.spec | sort: 'version' | reverse %}
+                          {% assign releases = site.spec | sort: 'date' | reverse %}
                             <!-- SECTIONS -->
                           {% for release in releases %}
                             <section id="{{ release.version | strip | slugify }}" class="doc-section">
