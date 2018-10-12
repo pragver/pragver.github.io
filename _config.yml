@@ -6,7 +6,7 @@ url: https://pragver.github.io
 baseurl: /
 title: &site_title Pragmatic Versioning
 description: &site_description Pragmatic Versioning specification and website
-latest: "0.1.0.0"
+latest: "1.0.0.0"
 branding:
   icon:
     name: icon_tags_alt
