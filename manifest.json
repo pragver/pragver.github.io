@@ -1,0 +1,15 @@
+{
+    "short_name": "PragVer",
+    "name": "Pragmatic Versioning",
+    "icons": [
+        {
+            "src": "img/logo.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "theme_color": "#40babd",
+    "background_color": "#494d55",
+    "display": "standalone"
+}
