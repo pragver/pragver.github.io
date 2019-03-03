@@ -9,7 +9,7 @@ The Pragmatic Versioning specification is authored by
 	
  <div class="author-profile text-center">
  
-[![](https://guillermo.in/assets/images/guillermo.png)](https://resume.guillermo.in/){: .center-block}
+[![](https://guillermo.dev/assets/images/guillermo.png)](https://guillermo.dev/){: .center-block}
   
  </div>
  <div class="speech-bubble">
